@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 1.2rem;
+}
+
+.bg-amethist {
+    background: #9b59b6;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(#16a085, #3498db);
+    
+}
+
+.text-header{
+    font-family: 'Special Elite', cursive;
+}
+
+.mt-n5{
+  margin-top: -3rem !important;
+}
+
+.mt-6{
+  margin-top: 4.5rem;
+}
+
+.mt-7{
+  margin-top: 7rem;
+}
+
+.icon{
+  font-size: 3rem;
+}
+
+.timeline-icon{
+  font-size: 4rem;
+  color: #c23616;
+}
+
+.img-banner{
+  height: 30rem;
+  min-height: 30rem;
+  max-height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-img-top{
+  height: 10rem;
+  min-height: 10rem;
+  max-height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel{
+  width: 100%;
+}
+
+.rodape{
+  bottom: 0px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 5px;
+  border-radius: 20%;
+  background-color: #262626;
+}
+
+.carousel-control-prev{
+  background-color: #262626;
+  width: 60px;
+  height: 60px;
+  left: 4%;
+  top: 40%;
+  bottom: 20px;
+  border-radius: 50%;
+}
+
+.carousel-control-next{
+  background-color: #262626;
+  width: 60px;
+  height: 60px;
+  right: 4%;
+  top: 40%;
+  bottom: 20px;
+  border-radius: 50%;
+}
+
+.iconlupa{
+  height: 2rem;
+  min-height: 2rem;
+  max-height: 2rem;
+}
+
+.nome{
+  font-size: 24px;
+  right: 0px;
+}
+
+.navcar{
+  height: 2rem;
+  min-height: 2rem;
+  max-height: 2rem;
+}
+
+.tabela{
+  width: 90%;  
+}
+
+#form{
+  width: 350px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 5px 30px rgb(195, 195, 195)
+  ;
+}
+
+.body{
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    body {
+        font-size: 0.9rem;
+    }
+    h1, .h1 {
+        font-size: 1.5rem;
+      }
+      
+      h2, .h2 {
+        font-size: 1rem;
+      }
+      
+      h3, .h3 {
+        font-size: 0.85rem;
+      }
+      
+      h4, .h4 {
+        font-size: 0.65rem;
+      }
+      
+      h5, .h5 {
+        font-size: 0.5rem;
+      }
+      
+      h6, .h6 {
+        font-size: 0.4rem;
+      }
+      .display-4 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1rem;
+      }
+      .bg-header{
+        background-image: linear-gradient(to bottom right, #0652DD, #12CBC4);
+    }
+      .bg-contato{
+        background-image: linear-gradient(to bottom right, #130f40, #686de0);
+    }
+      .bg-sobre{
+        background-image: linear-gradient(to bottom right, #192a56, #40739e);
+    }
+    
+ }
+
+
+/*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (max-width: 767.98px) { ... }
+/*Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) { ... }
+/*Dispositivos large (desktops com menos de 1200px)*/
+@media (max-width: 1199.98px) { ... }
+/*Dispositivos extra large (desktops grandes)*/
+/*Nenhuma media query, já que o breakpoint extra large não possui nenhum limite acima.*/
